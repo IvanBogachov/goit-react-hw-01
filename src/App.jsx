@@ -1,5 +1,5 @@
 import Profile from './components/Profile/Profile';
-// import FriendList from './FriendList/FriendList';
+import FriendList from './components/FriendList/FriendList';
 
 import userData from "./components/data/userData.json";
 import friends from "./components/data/friends.json";
@@ -14,7 +14,7 @@ export default function App() {
 				image={userData.avatar}
 				stats={userData.stats}
 			/>
-			{/* <FriendList friends={friends} /> */}
+			<FriendList friends={friends} />
 		</>
   );
 }
